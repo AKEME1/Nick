@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className="max-container flex justify-center flex-warp gap-9">
       {services.map((services) => (
-        <ServiceCard />
+        <ServiceCard key={services.label} {...services} />
       ))}
     </section>
   );
