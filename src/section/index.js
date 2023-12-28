@@ -6,6 +6,7 @@ import Subscribe from "./Subscribe";
 import Services from "./Services";
 import SuperQuality from "./SuperQuality";
 import CustmoerReview from "./CustmoerReview";
+import CustomerSuport from "./CustomerSuport";
 export {
   Hero,
   Footer,
@@ -15,4 +16,5 @@ export {
   Services,
   SuperQuality,
   CustmoerReview,
+  CustomerSuport,
 };

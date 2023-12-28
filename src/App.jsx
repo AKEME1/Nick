@@ -8,6 +8,7 @@ import {
   SpecialOffer,
   Subscribe,
   SuperQuality,
+  CustomerSuport,
 } from "./section";
 import Nav from "./components/Nav";
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
       <section className=" bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
+      <CustomerSuport />
     </main>
   );
 };
